@@ -28,7 +28,7 @@ A simple web-application that supports authentication, registration, read, updat
 + JUnit 5
 
 ## :eyes:How it looks like
-[My-taxi-service](Taxiservice-env.eba-gzayjkfc.us-east-1.elasticbeanstalk.com)
+[My-taxi-service](http://taxiservice-env.eba-gzayjkfc.us-east-1.elasticbeanstalk.com/login)
 
 ## :wrench:Installation
 1. Install Tomcat 9.0.50. If you decide to install version 10 and above, you should use a different dependency for servlets and JSTL as well.
