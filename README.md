@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/DanyloBorysenko/Taxi_service/blob/main/imageCopy.jpg" />
+<img src="https://github.com/DanyloBorysenko/Taxi-service/blob/main/imageCopy.jpg" />
 </p>
 <h1 align="center">Taxi-service</h1>
 
