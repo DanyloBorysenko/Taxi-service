@@ -25,7 +25,6 @@ A simple web-application that supports authentication, registration, read, updat
 + Java Servlet API 4.0.1
 + JSTL 1.2
 + log4j
-+ JUnit 5
 
 ## :eyes:How it looks like
 [My-taxi-service](http://taxiservice-env.eba-gzayjkfc.us-east-1.elasticbeanstalk.com/login)
