@@ -22,7 +22,11 @@
             <input type="text" name="model" form="car" required>
         </td>
         <td>
-            <input type="number" name="manufacturer_id" form="car" required>
+            <select name="manufacturer_id" form="car" required>
+                <c:forEach var="manufacturer" items="${manufacturers}">
+                    <option value="${manufacturer.id}">${manufacturer.name}</option>
+                </c:forEach>
+            </select>
         </td>
         <td>
             <input type="submit" name="add" form="car">

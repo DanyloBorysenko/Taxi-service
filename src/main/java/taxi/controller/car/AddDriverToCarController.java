@@ -1,6 +1,7 @@
 package taxi.controller.car;
 
 import java.io.IOException;
+import java.util.List;
 import java.util.NoSuchElementException;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -25,6 +26,10 @@ public class AddDriverToCarController extends HttpServlet {
     @Override
     public void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
+        List<Car> carList = carService.getAll();
+        List<Driver> driverList = driverService.getAll();
+        req.setAttribute("cars", carList);
+        req.setAttribute("drivers", driverList);
         req.getRequestDispatcher(PATH).forward(req, resp);
     }
 

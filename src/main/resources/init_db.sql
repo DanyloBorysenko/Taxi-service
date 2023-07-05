@@ -1,7 +1,7 @@
-CREATE SCHEMA IF NOT EXISTS `taxi` DEFAULT CHARACTER SET utf8;
-USE `taxi`;
-SET NAMES utf8mb4;
-SET FOREIGN_KEY_CHECKS = 0;
+-- CREATE SCHEMA IF NOT EXISTS `taxi` DEFAULT CHARACTER SET utf8;
+-- USE `taxi`;
+-- SET NAMES utf8mb4;
+-- SET FOREIGN_KEY_CHECKS = 0;
 
 -- ----------------------------
 -- Table structure for drivers
