@@ -1,7 +1,7 @@
 <p align="center">
 <img src="https://github.com/DanyloBorysenko/Taxi-service/blob/main/imageCopy.jpg" />
 </p>
-<h1 align="center">Taxi-service</h1>
+<h1 align="center">Vehicle Hub</h1>
 
 ## Project description:
 ```
